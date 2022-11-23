@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: asia.gcr.io/exemplary-datum-362307/petclinic:14
+        image: asia.gcr.io/exemplary-datum-362307/petclinic:16
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
